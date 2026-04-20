@@ -1,8 +1,6 @@
-type usernames ='string'
-const usernames = ["alice", "bob", "charlie"];
 
-type ratings ='number'
-const ratings = [4.5, 3.8, 5];
+const usernames: string[] = ["alice", "bob", "charlie"];
+const ratings: number[]= [4.5, 3.8, 5];
 
 
 interface Product{
